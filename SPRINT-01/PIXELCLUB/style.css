@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Police", sans-serif;
+  color: #1b2340;
+  margin: 0;
+  background-color: aliceblue;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  padding: 5% 10%;
+  background-color: white;
+}
+
+header span {
+  color: #5b4fd6;
+}
+
+header nav {
+  display: flex;
+  gap: 20%;
+}
+
+header nav span {
+  color: #1b2340;
+}
+
+.hero div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 5%;
+  width: 100%;
+}
+
+.hero span {
+  color: #5b4fd6;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.hero p {
+  color: gray;
+}
+
+.hero button {
+  background-color: #5b4fd6;
+  color: aliceblue;
+  font-weight: 550;
+  border: 0;
+  border-radius: 20px;
+  padding: 5% 15%;
+}
+
+.text-image span {
+  background-color: #1b2340;
+  padding: 15%;
+  width: 100%;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+.ateliers {
+  margin-bottom: 20%;
+}
+
+.ateliers div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 5%;
+  width: 100%;
+  gap: 10px;
+}
+
+.ateliers > div:first-child p {
+  display: none;
+}
+
+.ateliers h2 {
+  padding-left: 5%;
+}
+
+.atpost {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+.atpost span {
+  color: #1b2340;
+}
+
+.atpost strong {
+  color: #5b4fd6;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.atpost p {
+  color: gray;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top: 1px solid grey;
+  padding: 8%;
+}
+
+footer span {
+  font-weight: 600;
+}
+
+footer p {
+  color: gray;
+}
+
+
+@media screen {min-width: none;
+  
+}
